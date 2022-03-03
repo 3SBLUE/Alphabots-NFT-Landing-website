@@ -1,0 +1,1148 @@
+@font-face {
+    font-family: 'megrimfont';
+    src: url('../fonts/GABRWFFR.TTF');
+}
+
+.megrim-font {
+    font-family: 'megrimfont';
+}
+
+@font-face {
+    font-family: 'Black Ops One';
+    src: url('../fonts/BlackOpsOne-Regular.TTF');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-VariableFont_wght.ttf');
+}
+
+.rubik-font {
+    font-family: 'Rubik';
+}
+
+.text-center {
+    text-align: center;
+}
+/* Navbar  BEGIN */
+
+.float-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar_logo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 71.7374px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #13307A;
+    font-family: "Black Ops One";
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.navbar_right {
+    position: absolute;
+    right: 20px;
+}
+
+.navbar_button {
+    background: linear-gradient(0deg, #1F1D1D, #1F1D1D), #FFFFFF;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: solid white 1px;
+    display: inline-block;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.navbar_button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.navbar_button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    transition: all 0.3s;
+    z-index: -1;
+    text-transform: uppercase;
+    color: #13307A;
+    font-family: "Black Ops One";
+}
+
+.navbar_button:hover {
+    color: black;
+    border: solid black 1px;
+    outline: none;
+}
+
+.navbar_button:hover:before {
+    width: 100%;
+}
+
+.red_button {
+    background-color: rgba(238, 0, 0, 1);
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border: solid white 1px;
+}
+
+.red_button {
+    display: inline-block;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.red_button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.red_button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    transition: all 0.3s;
+    z-index: -1;
+    text-transform: uppercase;
+    color: #13307A;
+    font-family: "Black Ops One";
+}
+
+.red_button:hover {
+    color: black;
+    border: solid black 1px;
+    outline: none;
+}
+
+.red_button:hover:before {
+    width: 100%;
+}
+
+/* 
+.btn {
+    border: solid black 1px;
+    outline: none;
+} */
+
+.nav_menu {
+    display: none;
+}
+
+.navbar_logo_text {
+    position: absolute;
+    color: #000;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 25px
+}
+
+.star {
+    font-size: 40px;
+    color: red;
+    vertical-align: middle;
+}
+
+.top_background_animation {
+    /* height: 82vh; */
+    /* background-image: url(../images/top_background_animation_high.gif); */
+    width: 100% !important;
+    background-size: cover;
+    background-position: center;
+}
+
+/* main  Begin */
+
+.font_default {
+    color: #171717;
+    font-size: 30px;
+    line-height: 47px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.font_undefault {
+    color: #c1c1c1;
+    font-size: 30px;
+    line-height: 47px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.font_bgdefault {
+    text-transform: uppercase;
+    color: #13307A;
+    font-family: "Black Ops One";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 71.7374px;
+    line-height: 72px;
+}
+
+.font_information_title {
+    text-transform: uppercase;
+    color: #13307A;
+    font-family: "Black Ops One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 83px;
+    line-height: 85px;
+}
+.font_information_content {
+    color: #171717;
+    font-size: 42px;
+    line-height: 50px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font_bgundefault {
+    text-transform: uppercase;
+    color: #13307A;
+    font-family: "Black Ops One";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 71.7374px;
+    line-height: 72px;
+}
+
+.font_general {
+    color: #171717;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.mint_button {
+    /* MINT */
+    padding: 10px 70px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45.5686px;
+    line-height: 46px;
+    /* identical to box height, or 100% */
+    color: #FFFFFF;
+    background-color: #DB0707;    
+    border: none;
+}
+
+.mint_button:hover {
+    color: white;
+    opacity: 0.9;
+}
+
+.footer-font {
+    font-weight: 400 !important;
+}
+
+.footer_round {
+    box-shadow: 0px 0px 10px rgb(255 255 255 / 53%) !important;
+    border: solid 3px #e9e9e9 !important;
+}
+
+.add-padding {
+    padding-right: 12% !important;
+    padding-left: 12% !important;
+}
+
+.roadmap_title {
+    text-transform: uppercase;
+    color: #13307A;
+    font-family: "Black Ops One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71.7374px;
+    line-height: 72px;
+    margin-bottom: -100px;
+}
+
+.roadmap_title_back {
+    width: 100%;
+    border-left: 49.0vw solid transparent;
+    border-right: 49.0vw solid transparent;
+    border-top: 150px solid #fff;
+}
+.roadmap_bottom_back {
+    margin-top: 1.5rem;
+    width: 100%;
+    border-left: 49.0vw solid transparent;
+    border-right: 49.0vw solid transparent;
+    border-top: #4775c5 150px solid;
+    background-color: #fff;
+}
+
+.roadmap {
+    width: 100%;
+    background: linear-gradient(5.9deg, #4977C9 4.2%, #0A1E43 95.8%, #0A1E43 95.8%);
+}
+
+.top_title {
+    /* 1. ACTIVATE BOTS */
+    text-transform: uppercase;
+    font-family: "Black Ops One";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    /* line-height: 167px; */
+    /* identical to box height, or 267% */
+    color: #fff;
+}
+
+.top_title_num {
+    color: #C1C1C1;
+    font-size: 50px;
+}
+
+.dot_data {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.dot {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgb(255 255 255 / 53%);
+    padding: 5px 15px;
+    border-radius: 50%;
+    border: solid 5px #000;
+    z-index: 99;
+}
+
+.roadmap .top_one .row.position-relative:after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    background: #8BC4FF;
+    /* box-shadow: 0px 0px 7px rgb(118 185 255 / 46%); */
+    left: 2.9%;
+    top: 82px;
+    height: 98%;
+    z-index: 0;
+}
+
+.roadmap .top_one .row.position-relative:last-child:after {
+    display: none;
+}
+
+.top_data {
+    /* Phase one will begin with the activation of the Brobots. Activa */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 62px;
+    /* or 167% */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.top_data br {
+    height: 10px;
+}
+.roadmap_round {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.53);
+    border: solid 3px #e9e9e9;
+}
+
+.roadmap_font {
+    font-family: Rubik !important;
+    font-weight: lighter !important;
+}
+
+.nowrap {
+    white-space: nowrap !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.em-image {
+    width: 35%;
+}
+
+.mlp-8 {
+    margin-left: 8% !important;
+}
+
+.common_title {
+    /*  Coming soon to Solana   */
+    font-family: 'Rubik';
+    font-size: 105px;
+    line-height: 208px;
+    font-weight: 600;
+    /* or 167% */
+    display: flex;
+    align-items: center;
+    color: #171717;
+}
+
+.common_subtitle {
+    font-family: 'Rubik';
+    font-size: 1.8vw;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    color: #171717;
+}
+
+.bot-one {
+    width: 24.5%;
+}
+
+.bot-two {
+    width: 16.5%;
+    z-index: 99;
+    margin-left: 0;
+}
+
+.bot-three {
+    width: 17.5%; 
+    margin-left: 1%;
+}
+
+.bot-four {
+    width: 21.5%; 
+}
+
+.bot-five {
+    width: 17%;
+}
+
+.bot-six {
+    width: 20%; 
+    margin-left: 1%; 
+    margin-right: 0.8%;
+}
+
+.common_back {
+    background-image: url(../images/add_images/background.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 20rem;
+}
+
+.communfity_text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 49.99px;
+    line-height: 62px;
+    color: #1F1D1D;
+}
+
+img {
+    max-width: 100%;
+}
+
+.common_bg_image {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: -9;
+}
+
+.meet-section h2 {
+    font-size: 3.8vw;
+    font-weight: bold;
+}
+
+.pr-0 {
+    padding-right: 0px !important;
+}
+
+.meet-section p {
+    font-size: 20px;
+    margin-top: -0.5rem;
+}
+
+.footer-padding {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+}
+
+.section-qa {
+    background: linear-gradient(5.9deg, #4977C9 4.2%, #0A1E43 95.8%, #0A1E43 95.8%);
+    padding: 5vw 0;
+}
+
+.section-qa .title h2 {
+    font-size: 4.3vw;
+}
+
+.accordion-container {
+    border: white 3px solid;
+    border-radius: 10px;
+}
+
+.accordion {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-inline-block a:hover {
+    color: transparent !important;
+    text-decoration: none !important;
+}
+
+.accordion:after {
+    content: '';
+    background: url(../images/question_answer/arrow.png) no-repeat;
+    width: 3vw;
+    height: 3vw;
+    background-size: cover;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "";
+    transform: rotate(180deg);
+}
+
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.container-fluid {
+    padding: 0 30px;
+}
+
+.accordion.active {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.accordion h2 {
+    font-size: 2vw;
+    color: white;
+}
+
+.panel p {
+    font-size: 1.6vw;
+    color: white;
+}
+
+.social_footer_image {
+    height: 40px;
+    /* padding: 0 1vw; */
+}
+
+.sp {
+    display: none;
+}
+
+h4 {
+    font-size: 2vw;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 90%;
+    object-fit: cover;
+}
+
+.slide-container .mySwiper {
+    padding: 5vw 2vw;
+}
+
+.swiper-pagination-bullet {
+    width: 50px;
+    border-radius: 0;
+    height: 5px;
+}
+
+.swiper-pagination-bullet-active {
+    background: black;
+}
+
+.swiper-slide-active img {
+    width: 100%;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.line-height-15 {
+    line-height: 1.5;
+}
+
+.line-height-18 {
+    line-height: 1.8;
+}
+
+.navbar_button p {
+    font-size: 2.2vw;
+    margin-bottom: 0;
+}
+
+.red_button p {
+    font-size: 2.2vw;
+    margin-bottom: 0;
+}
+
+.roadmap-padding {
+    /* padding-left: 15% !important;
+    padding-right: 10% !important; */
+}
+
+/* main  ENd */
+
+/* button animation */
+
+@media(max-width: 1350px) {
+    .dot_data {
+        margin-top: 31px;
+        text-align: center;
+    }
+    .roadmap .top_one .row.position-relative:after {
+        position: absolute;
+        content: "";
+        width: 4px;
+        background: #8BC4FF;
+        /* box-shadow: 0px 0px 7px rgb(118 185 255 / 46%); */
+        left: 2.9%;
+        top: 88px;
+        height: 100%;
+        z-index: 0;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .navbar_logo_text {
+        font-size: 22px
+    }
+    .navbar_logo {
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .star {
+        font-size: 30px;
+    }
+    .navbar_button {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .social_footer_image {
+        height: 37px;
+    }
+    .top_title {
+        font-size: 41px;
+        /* line-height: 78px; */
+    }
+    .top_title_num {
+        font-size: 40px;
+        line-height: 78px;
+    }
+    .top_data {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .dot {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 13px rgba(255, 255, 255, 0.53);
+        padding: 3px 13px;
+        border-radius: 50%;
+    }
+    .font_default {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .font_undefault {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .font_bgdefault {
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .font_information_title {
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .font_bgundefault {
+        font-size: 64px;
+        line-height: 64px;
+    }
+    .font_general {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .font_information_content {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .mint_button {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .red_button {
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .top_background_animation {
+        /* height: 78vh; */
+    }
+    .communfity_text {
+        font-size: 36px;
+        line-height: 54px;
+    }
+    .roadmap_title {
+        font-size: 64px;
+        line-height: 64px;
+    }
+    .common_title {
+        font-family: 'Rubik';
+        font-size: 70px;
+        line-height: 150px;
+    }
+    .common_back {
+        padding-top: 15rem;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .navbar_logo_text {
+        font-size: 20px
+    }
+    .navbar_logo {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .star {
+        font-size: 30px;
+    }
+    .navbar_button {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .social_footer_image {
+        height: 35px;
+    }
+    .top_background_animation {
+        /* height: 72vh; */
+    }
+    .font_bgdefault {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .font_information_title {
+        font-size: 42px;
+        line-height: 50px;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .navbar_logo_text {
+        top: 20px;
+    }
+    .navbar_right {
+        top: 20px;
+    }
+    .navbar_logo {
+        padding-top: 50px;
+        font-size: 64px;
+        line-height: 64px;
+    }
+    .navbar_button {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width:992px) {
+    .common_title {
+        font-size: 56px;
+        line-height: 78px;
+        /* or 167% */
+    }
+    .font_bgdefault {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .font_information_title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .font_default {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .font_general {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .font_information_content {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .common_back {
+        padding-top: 12rem;
+    }
+}
+
+@media only screen and (max-width:825px) {
+    .roadmap_title_back {
+        border-left: 48vw solid transparent;
+        border-right: 48vw solid transparent;
+        border-top: 150px solid #fff;
+    }
+    .roadmap_bottom_back {
+        margin-top: 0rem;
+        border-left: 48vw solid transparent;
+        border-right: 48vw solid transparent;
+    }
+    .font_bgdefault {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .font_information_title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .navbar_logo {
+        font-size: 40px;
+        line-height: 64px;
+    }
+    .navbar_button {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .social_footer_image {
+        height: 35px;
+    }
+    /* .navbar_right {
+        display: none;
+    } */
+    .fa-align-justify {
+        display: inline-block!important;
+    }
+    .top_background_animation {
+        /* height: 45vh; */
+    }
+    .font_default {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .font_general, .font_information_content {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .font_undefault {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .font_bgdefault {
+        font-size: 34px;
+        line-height: 64px;
+    }
+    .font_information_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .font_bgundefault {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .mint_button {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .top_title_num {
+        font-size: 26px;
+        line-height: 48px;
+    }
+    .top_title {
+        font-size: 22px;
+        /* line-height: 48px; */
+    }
+
+    .top_data {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .dot {
+        padding: 0px 10px;
+    }
+    .dot_data {
+        margin-top: 18px;
+        padding: 0 !important;
+    }
+    .roadmap .top_one .row.position-relative:after {
+        left: 8.5%;
+        top: 70px;
+    }
+    .roadmap_title {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .common_title {
+        font-size: 48px;
+        line-height: 78px;
+    }
+    .panel p {
+        font-size: 2.6vw !important;
+        color: white;
+    }
+    .common_back {
+        padding-top: 8rem;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .navbar_logo_text {
+        font-size: 20px;
+    }
+    .navbar_logo {
+        font-size: 34px;
+        line-height: 36px;
+    }
+    .star {
+        font-size: 20px;
+    }
+    .top_background_animation {
+        /* height: 28vh; */
+    }
+    .top_title_num {
+        font-size: 15px;
+        line-height: 34px;
+    }
+
+    .top_title {
+        font-size: 12px;
+        /* line-height: 34px; */
+    }
+    .top_data {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .font_default {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .font_undefault {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .font_bgdefault {
+        font-size: 25px;
+        line-height: 56px;
+    }
+    .font_information_title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .font_bgundefault {
+        font-size: 25px;
+        line-height: 56px;
+    }
+    .font_general, .font_information_content {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .roadmap_title {
+        font-size: 32px;
+        line-height: 56px;
+    }
+    .roadmap_title_back {
+        border-left: 50vw solid transparent;
+        border-right: 50vw solid transparent;
+        border-top: 120px solid #fff;
+    }
+    .roadmap_bottom_back {
+        border-left: 50vw solid transparent;
+        border-right: 50vw solid transparent;
+        border-top: #4775c5 120px solid;
+    }
+    .common_title {
+        font-size: 25px;
+        line-height: 37px;
+        text-align: center;
+        /* or 167% */
+    }
+    .common_back {
+        padding-top: 5rem;
+    }
+    
+    .pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    h4 {
+        font-size: 6vw;
+    }
+    .meet-section h2 {
+        font-size: 12vw;
+        font-weight: bold;
+    }
+    .meet-section p {
+        font-size: 6vw;
+    }
+    .section-qa .title h2 {
+        font-size: 6.3vw;
+    }
+    .accordion h2 {
+        font-size: 4vw;
+        color: white;
+        margin-bottom: 0;
+    }
+    .accordion:after {
+        content: '';
+        background: url(../images/question_answer/arrow.png) no-repeat;
+        width: 6vw;
+        height: 5vw;
+        background-size: cover;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    .panel p {
+        font-size: 3vw;
+        color: white;
+    }
+    .social_footer_image {
+        height: 30px;
+        /* padding: 0 2vw; */
+    }
+    .section-qa {
+        background: black;
+        padding: 8vw 0;
+    }
+    .slide-container .mySwiper {
+        padding: 10vw 4vw;
+    }
+    .swiper-pagination-bullet {
+        width: 30px;
+        border-radius: 0;
+        height: 3px;
+    }
+    .navbar_button p {
+        font-size: 4.5vw;
+        margin-bottom: 0;
+    }
+    .red_button p {
+        font-size: 4.5vw;
+        margin-bottom: 0;
+    }
+    
+    .roadmap .top_one .row.position-relative:after {
+        position: absolute;
+        content: "";
+        width: 3px;
+        background: #8BC4FF;
+        /* box-shadow: 0px 0px 7px rgb(118 185 255 / 46%); */
+        left: 9.8%;
+        top: 71px;
+        height: 100%;
+        z-index: 0;
+    }
+}
+
+@media only screen and (max-width:524px) {
+    .roadmap .top_one .row.position-relative:after {
+        left: 8.6%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .navbar_logo {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .font_information_title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+/* Navbar END */
